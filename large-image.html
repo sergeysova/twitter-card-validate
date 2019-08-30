@@ -1,0 +1,15 @@
+
+
+<meta property="og_site_name" content="Howtocards" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Order of side-effects in Effector" />
+<meta property="og:description" content="When event triggered in watcher, we wait after it call all side-effects is already done. let sideEffects = 0 const foo = createEvent() const bar = createEvent() const target = createStore(null) foo.watch(() => sideEffects += 1) bar.watch(() => console.log('side effects: ', sideEffects)) target.watch(() => { foo() bar() })" />
+<meta property="og:url" content="https://test.cards.atomix.team/open/7" />
+
+<meta property="article:published_time" content="2019-06-29T20:17:38.688552" />
+<meta property="article:modified_time" content="2019-07-31T19:16:31" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@howtocards_io" />
+<meta property="twitter:title" content="Order of side-effects in Effector" />
+<meta property="twitter:image" content="https://repository-images.githubusercontent.com/205410322/66457f00-cb55-11e9-8099-aeb4772ff92c" />
+<meta property="twitter:description" content="When event triggered in watcher, we wait after it call all side-effects is already done. let sideEffects = 0 const foo = createEvent() const bar = createEvent() const target = createStore(null) foo.watch(() => sideEffects += 1) bar.watch(() => console.log('side effects: ', sideEffects)) target.watch(() => { foo() bar() })" />
