@@ -11,4 +11,5 @@
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:site" content="@howtocards_io" />
 <meta property="twitter:title" content="Order of side-effects in Effector" />
+<meta property="twitter:image" content="https://repository-images.githubusercontent.com/205410322/66457f00-cb55-11e9-8099-aeb4772ff92c" />
 <meta property="twitter:description" content="When event triggered in watcher, we wait after it call all side-effects is already done. let sideEffects = 0 const foo = createEvent() const bar = createEvent() const target = createStore(null) foo.watch(() => sideEffects += 1) bar.watch(() => console.log('side effects: ', sideEffects)) target.watch(() => { foo() bar() })" />
